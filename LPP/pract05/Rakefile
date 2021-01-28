@@ -1,0 +1,8 @@
+task :default => :tu
+
+
+desc "Pruebas unitarias de Huella Nutricional"
+task :tu do
+	sh "ruby -I. test/huella_test.rb"
+end
+
